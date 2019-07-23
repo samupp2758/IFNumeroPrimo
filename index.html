@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>eh_primo</title>
+        <meta charset="utf-8">
+        <style>
+            .ss{text-align: center;
+            font-family: Arial;
+            font-size: 100px;
+        transition: 0.5S;    
+        }
+        .ss:hover{
+            text-align: center;
+            font-family: Arial;
+            
+            font-size: 50px;
+        transition: 0.5S;    
+        }
+
+        </style>
+    </head>
+    <body>
+       
+        <span id="ss" class="ss"></span>
+        <script>
+            //valor= valor recebido do usuario
+            //valor_vector= posicao em que o array deve colocar o proximo numero no vector
+            //vector=vector que contem todos os numeros que dividem o valor recebido
+            //numeros_de_divisores= eh o numeros de divisores possiveis
+            //um numero primo soh eh divisivel por 1 e por ele mesmo, ou seja, numero_de_divisores = 2
+            var valor= parseInt(prompt("colocae um number"));
+            var valor= prompt("hebrom tomou cafe?");
+            var valor_vector = 0;
+            var vector = [];
+            var numero_de_divisores = 0;
+            var hebrom_tomou_cafe = true
+           for(i=1;
+           i<=valor
+           ;i++){
+        
+            if((valor % i) == 0){
+            
+                vector[valor_vector] = i
+            
+                valor_vector++ 
+            
+                numero_de_divisores++
+            
+            }
+            
+            }
+            
+
+            if(valor== "s"){
+                document.getElementById("ss").innerText = "toppppppppp"
+            }else if(valor == "n"){
+                document.getElementById("ss").innerText = "deu molin mano, as bolinha preta comestiveis tah lah ainda"
+
+            }
+
+            console.log("valor:"+valor)
+            
+            console.log("numero_de_divisores: "+numero_de_divisores)
+            
+            console.log("valores_que_dividem: "+vector)
+            if(numero_de_divisores == 2){
+                console.log('eh primo')
+            }else{
+                console.log('n eh primo')
+            }
+        </script>
+
+    </body>
+</html>
+
