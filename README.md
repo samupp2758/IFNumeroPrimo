@@ -1,10 +1,10 @@
  # IFNumeroPrimo v1.0
  
- # Uso
+ ## Uso
  
  O codigo funciona no navegador, a resposta é dada através do console.
  
- # Funcionamento
+ ## Funcionamento
   valor= valor recebido do usuario
   valor_vector= posicao em que o array deve colocar o proximo numero no vector
   vector=vector que contem todos os numeros que dividem o valor recebido
